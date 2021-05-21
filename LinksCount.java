@@ -32,7 +32,7 @@ public class LinksCount {
 			coloumndriver.findElements(By.tagName("a")).get(i).sendKeys(clickonlinkTab);
 			Thread.sleep(5000L);
 		}
-		Set<String> abc=driver.getWindowHandles();//4
+		Set<String> abc=driver.getWindowHandles();
 		Iterator<String> it=abc.iterator();
 		
 		while(it.hasNext())
